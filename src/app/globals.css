@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&amp;family=Roboto:wght@100;300;400;500;700;900&amp;display=swap');
+
+:root {
+  --body-font: 'Roboto', sans-serif;
+  --body-alt-font: 'Chakra Petch', sans-serif;
+  --body-color: rgb(255, 255, 255);
+  --body-bg: #00003E;
+  --hover-text: #00FEDF;
+  --game-section: #280B70;
+  --purple: #5c2cc5;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--body-font);
+  /* background-color: var(--body-bg); */
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  overflow-x: hidden;
+  color: #ffffff;
+  list-style: none;
+
+  ul,
+  a {
+    text-decoration: none !important;
+  }
+}
+
+
+/* ! header style  */
+#header-section {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: transparent;
+}
+
+
+.header_fixed {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+  background-color: #00003E !important;
+  box-shadow: 0px 3px 10px 0px rgb(0 0 0 / 30%);
+  animation: 1s fadeInDown;
+}
+
+#header-section .container {
+  border-bottom: 1px solid #4543A9;
+  flex-wrap: wrap;
+}
+
+.header_fixed .container {
+  border-bottom: none !important;
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    -ms-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+.icon_style {
+  width: 20px;
+  height: 20px;
+}
+
+#menu ul {
+  margin-bottom: 0 !important;
+  display: flex;
+}
+
+#menu ul li {
+  padding: 20px 40px;
+  color: white;
+}
+
+#menu ul li:last-child {
+  padding: 20px 0 20px 20px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  transition: all 300ms;
+  text-wrap: nowrap;
+  text-decoration: none;
+}
+
+#menu ul li:hover a {
+  color: var(--hover-text);
+}
+
+.menu {
+  height: 320px !important;
+  overflow: auto !important;
+}
+
+.game_section {
+  padding-top: 120px;
+}
+
+/* ! footer style  */
+
+
+
+@media (max-width: 991px) {
+  #header-section .container {
+    padding: 4.5px 0;
+  }
+
+  #header-section {
+    background-color: var(--purple) !important;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  #menu {
+    height: 0;
+    transition: all 0.4s ease;
+    scrollbar-width: none;
+
+    ::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  #menu ul {
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 15px;
+  }
+
+  #menu ul li {
+    padding: 15px 40px 15px 12px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .px-15 {
+    padding: 0 15px !important;
+  }
+}
