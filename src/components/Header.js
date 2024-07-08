@@ -5,6 +5,7 @@ import logo from '@/assets/logo/logo.png'
 import { useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
+import { quickLink } from '@/helper/common'
 
 function Header() {
 
@@ -26,37 +27,11 @@ function Header() {
         let menu = document.getElementById('menu')
         if (menu.classList.contains('menu')) {
             menu.classList.remove('menu')
-            // menu.classList.add('d-none')
-
         } else {
             menu.classList.add('menu')
-            // menu.classList.remove('d-none')
         }
     }
 
-
-    const quickLink = [
-        {
-            name: 'Home',
-            path: '/'
-        },
-        {
-            name: 'About Us',
-            path: '/aboutus'
-        },
-        {
-            name: 'Developer',
-            path: '/developer'
-        },
-        {
-            name: 'Affiliates',
-            path: '/affiliates'
-        },
-        {
-            name: 'Contact Us',
-            path: '/contactus'
-        },
-    ]
     return (
         <header id='header-section'>
             <div className='container d-flex gx-0 px-15 '>
@@ -72,14 +47,20 @@ function Header() {
                 <nav>
                     <div className='' id='menu'>
                         <ul className=''>
-                            {quickLink.map(item => {
+                            {quickLink.map((item, index) => {
                                 return (
-                                    <li key={item.name}><a className='' href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} >{item.name}</a></li>
+                                    <>
+                                        <li key={item.name}><a className={`${quickLink.length - 1 === index && 'cmn_btn cmn_btn_alt2'}`} href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} >{item.name}</a></li>
+                                        {quickLink.length - 1 === index && <div className="search_btn d-none d-lg-flex " onClick={handleMenu}>
+                                            <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style' />
+                                        </div>}
+                                    </>
                                 )
                             })}
                         </ul>
                     </div>
                 </nav>
+
             </div>
         </header>
     )
