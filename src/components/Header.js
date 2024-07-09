@@ -50,13 +50,21 @@ function Header() {
                             {quickLink.map((item, index) => {
                                 return (
                                     <>
-                                        <li key={item.name}><a className={`${quickLink.length - 1 === index && 'cmn_btn cmn_btn_alt2'}`} href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} >{item.name}</a></li>
-                                        {quickLink.length - 1 === index && <div className="search_btn d-none d-lg-flex " onClick={handleMenu}>
-                                            <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style' />
-                                        </div>}
+                                        <li key={item.name}><a href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} >{item.name}</a></li>
+
                                     </>
                                 )
                             })}
+                            <li><a class="cmn_btn cmn_btn_alt2 " href="/contactus" aria-label="">
+                                <span className="position-relative">
+                                    <span className='c-first'>Contact Us</span>
+                                    <span className='c-second'>Contact Us</span>
+                                    <span className='c-third'>Contact Us</span>
+                                </span>
+                            </a></li>
+                            <div className="search_btn d-none d-lg-flex " onClick={handleMenu}>
+                                <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style' />
+                            </div>
                         </ul>
                     </div>
                 </nav>

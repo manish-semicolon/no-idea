@@ -86,6 +86,7 @@ function Footer() {
                                     <li key={item.name}><a className='text-white' href={item.path} aria-label>{item.name}</a></li>
                                 )
                             })}
+                            <li><a className='text-white' href='/contactus' aria-label>Contact Us</a></li>
                         </ul>
                     </div>
                     <div className="d-flex align-items-center justify-content-md-center ">

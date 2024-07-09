@@ -11,6 +11,8 @@ import game4 from "@/assets/images/game-4.png"
 import game5 from "@/assets/images/game-5.png"
 import game6 from "@/assets/images/game-6.png"
 import game7 from "@/assets/images/game-7.png"
+import CustomButton from "./CustomButton";
+
 let settings = {
     dots: false,
     infinite: true,
@@ -19,7 +21,7 @@ let settings = {
     slidesToScroll: 1,
     autoplay: true,
     speed: 1500,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 3000,
     cssEase: "ease-in-out",
     className: "slider_margin",
     responsive: [
@@ -43,19 +45,20 @@ let settings = {
 function SliderSection() {
     const gameImage = [game1, game2, game3, game4, game5, game6, game7]
     return (
-        <div className="pb_120 pt_120" style={{ background: 'var(--body-bg)', overflow: 'hidden' }}>
+        <div className="pb_120 pt_120" style={{ overflow: 'hidden' }}>
+            {/* <div className="pb_120 pt_120" style={{ background: 'var(--body-bg)', overflow: 'hidden' }}> */}
             <div className="container gx-0">
-                <div className="row justify-content-between">
-                    <div className="col-lg-6 col-md-9 col-sm-8 text-center text-sm-start ">
-                        <div className="slider_text">
-                            <h2 className="title">FEATURED GAMES</h2>
-                            <p>To meet today's challenges & earn cryptocurrency</p>
+                <div className="row justify-content-between mb-3 gx-0" style={{ paddingTop: 6 }}>
+                    <div className="col-6 text-center">
+                        <div className="slider_text  mb-0 ">
+                            <h2 className="title mb-0 text-start ">FEATURED GAMES</h2>
                         </div>
                     </div>
                     <div
-                        className="col-lg-3 col-md-3 col-sm-4 d-flex align-items-center justify-content-center justify-content-sm-end">
+                        className="col-6 d-flex align-items-center justify-content-end">
                         <div className="right-area">
-                            <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a>
+                            {/* <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a> */}
+                            <CustomButton name='View More' />
                         </div>
                     </div>
                 </div>

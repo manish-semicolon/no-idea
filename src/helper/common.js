@@ -15,8 +15,8 @@ export const quickLink = [
         name: 'Affiliates',
         path: '/affiliates'
     },
-    {
-        name: 'Contact Us',
-        path: '/contactus'
-    },
+    // {
+    //     name: 'Contact Us',
+    //     path: '/contactus'
+    // },
 ]

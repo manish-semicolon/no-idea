@@ -1,7 +1,7 @@
 import nextIcon from "@/assets/images/double-right.png"
 import blog_1 from "@/assets/blog/blog_1.png"
 import Image from "next/image"
-
+import CustomButton from './CustomButton'
 
 function Blog() {
     return (
@@ -15,7 +15,8 @@ function Blog() {
                 <div
                     className="col-6 d-flex align-items-center justify-content-end">
                     <div className="right-area">
-                        <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a>
+                        {/* <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a> */}
+                        <CustomButton name='Show all' />
                     </div>
                 </div>
             </div>

@@ -6,7 +6,8 @@ import { Accordion } from 'react-bootstrap';
 function FAQ() {
 
     return (
-        <section id="faq-section" style={{ background: '#00093E' }}>
+        <section id="faq-section">
+            {/* <section id="faq-section" style={{ background: '#00093E' }}> */}
             <div class="pt-120 pb-120">
                 <div class="container">
                     <div class="row justify-content-center text-center">

@@ -8,7 +8,7 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='' style={{ background: '#0D0D48', minHeight: "100vh" }}>
+    <div className='' style={{ background: '#090c1d', minHeight: "100vh" }}>
       <Header />
       {/* <div className=''> */}
       {/* <div className="container px-15 gx-0">
