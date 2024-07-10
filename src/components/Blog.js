@@ -5,8 +5,8 @@ import CustomButton from './CustomButton'
 
 function Blog() {
     return (
-        <div className="container gx-0 px-15">
-            <div className="row justify-content-between mb-3 gx-0">
+        <div className="container gx-0 px-15 blog_container">
+            <div className="row justify-content-between mb-3 gx-0 flex350" >
                 <div className="col-6 text-center">
                     <div className="slider_text  mb-0 ">
                         <h2 className="title mb-0 text-start ">Blog</h2>

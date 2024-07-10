@@ -67,7 +67,13 @@ function Footer() {
                                     <form action="#">
                                         <div className="subscribe">
                                             <input type="email" placeholder="Enter Your Email Address" />
-                                            <button className="btn">Subscribe</button>
+                                            <button className="btn">
+                                                <span className="position-relative">
+                                                    <span className='c-first'>Subscribe</span>
+                                                    <span className='c-second'>Subscribe</span>
+                                                    <span className='c-third'>Subscribe</span>
+                                                </span>
+                                            </button>
                                         </div>
                                     </form>
                                 </div>
