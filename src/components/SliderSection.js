@@ -33,7 +33,7 @@ let settings = {
             }
         },
         {
-            breakpoint: 479,
+            breakpoint: 768,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 1,
@@ -45,16 +45,16 @@ let settings = {
 function SliderSection() {
     const gameImage = [game1, game2, game3, game4, game5, game6, game7]
     return (
-        <div className="pb_120 pt_120" style={{ overflow: 'hidden' }}>
+        <div className="pb_46 header_PT100" style={{ overflow: 'hidden' }}>
             {/* <div className="pb_120 pt_120" style={{ background: 'var(--body-bg)', overflow: 'hidden' }}> */}
             <div className="container gx-0 px-15">
                 <div className="row justify-content-between mb-3 gx-0 flex350" style={{ paddingTop: 6 }}>
-                    <div className="col-6 text-center">
+                    <div className="col-8 text-center">
                         <div className="slider_text  mb-0 ">
                             <h2 className="title mb-0 text-start ">FEATURED GAMES</h2>
                         </div>
                     </div>
-                    <div className="col-6 d-flex align-items-center justify-content-end">
+                    <div className="col-4 d-flex align-items-center justify-content-end">
                         <div className="right-area">
                             {/* <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a> */}
                             <CustomButton name='View More' />
@@ -67,7 +67,7 @@ function SliderSection() {
                     return (
                         <div className="single-item" key={i + 'abcd'}>
                             <a href="#">
-                                <Image src={img} width={0} height={0} alt="game icon" className="" />
+                                <Image src={img} width={0} height={0} alt="game icon" className="" loading="lazy" />
                             </a>
                         </div>
                     )

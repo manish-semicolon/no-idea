@@ -50,12 +50,12 @@ function Footer() {
                         <div className="footer-top pt-120 pb-120">
                             <div className="side-contant">
                                 <div className="left">
-                                    <Image src={leftBg} unoptimized width={0} height={0} alt="image" className='bg' />
-                                    <Image src={leftCircle} unoptimized width={0} height={0} alt="image" className='bg circle ' />
-                                    <Image src={leftTop} unoptimized width={0} height={0} alt="image" className='top ' />
+                                    <Image src={leftBg} unoptimized width={0} height={0} alt="image" className='bg' loading="lazy" />
+                                    <Image src={leftCircle} unoptimized width={0} height={0} alt="image" className='bg circle ' loading="lazy" />
+                                    <Image src={leftTop} unoptimized width={0} height={0} alt="image" className='top ' loading="lazy" />
                                 </div>
                                 <div className="right">
-                                    <Image src={rightImage} unoptimized width={0} height={0} alt="image" />
+                                    <Image src={rightImage} unoptimized width={0} height={0} alt="image" loading="lazy" />
                                 </div>
                             </div>
                             <div className="row justify-content-center position-relative footer_contact ">
@@ -67,11 +67,11 @@ function Footer() {
                                     <form action="#">
                                         <div className="subscribe">
                                             <input type="email" placeholder="Enter Your Email Address" />
-                                            <button className="btn">
+                                            <button className="my_btn">
                                                 <span className="position-relative">
-                                                    <span className='c-first'>Subscribe</span>
-                                                    <span className='c-second'>Subscribe</span>
-                                                    <span className='c-third'>Subscribe</span>
+                                                    <span className='h-first'>Subscribe</span>
+                                                    <span className='h-second'>Subscribe</span>
+                                                    <span className='h-third'>Subscribe</span>
                                                 </span>
                                             </button>
                                         </div>
@@ -81,12 +81,13 @@ function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className='d-flex flex-column flex-lg-row  justify-content-between align-content-lg-center pb_40 gap-4 gap-lg-5 pt-120'>
-                    <div className='d-flex justify-content-between align-items-between flex-md-row flex-column  gap-3 flex-grow-1'>
+                <div className='d-flex flex-column flex-lg-row  justify-content-between align-content-lg-center pb_40 gap-4 gap-lg-5 pt_46'>
+                    <div className='d-flex justify-content-between align-items-between flex-md-row flex-column gap-4  gap-lg-3 flex-grow-1 flex-wrap'>
                         <a href="/" aria-label='home'>
-                            <Image src={logo} width={120} height={0} alt='home logo' />
+                            <Image src={logo} width={120} height={0} alt='home logo' loading="lazy" />
                         </a>
-                        <ul className='d-sm-flex justify-content-between align-items-center mb-0 ps-0  text-uppercase text-nowrap gap-xl-5 gap-3 footer_link  '>
+                        <ul className='d-md-flex justify-content-lg-between justify-content-center align-items-center mb-0 ps-0  text-uppercase text-nowrap gap-4 footer_link m-md-auto order-md-1 order-lg-0  '>
+                            <p className='text-white fs-6 quick_link d-md-none'>Quick Link</p>
                             {quickLink.map(item => {
                                 return (
                                     <li key={item.name}><a className='text-white' href={item.path} aria-label>{item.name}</a></li>
@@ -94,15 +95,23 @@ function Footer() {
                             })}
                             <li><a className='text-white' href='/contactus' aria-label>Contact Us</a></li>
                         </ul>
+                        <div className="d-flex align-items-center justify-content-md-center ">
+                            <div className="social_area d-flex gap-2">
+                                <a href='#'><Image src={twitter} height={0} width={0} alt='' loading="lazy" /></a>
+                                <a href='#'><Image src={facebook} height={0} width={0} alt='' loading="lazy" /></a>
+                                <a href='#'><Image src={linkedin} height={0} width={0} alt='' loading="lazy" /></a>
+                                <a href='#'><Image src={google} height={0} width={0} alt='' loading="lazy" /></a>
+                            </div>
+                        </div>
                     </div>
-                    <div className="d-flex align-items-center justify-content-md-center ">
+                    {/* <div className="d-flex align-items-center justify-content-md-center ">
                         <div className="social_area d-flex gap-2">
                             <a href='#'><Image src={twitter} height={0} width={0} alt='' /></a>
                             <a href='#'><Image src={facebook} height={0} width={0} alt='' /></a>
                             <a href='#'><Image src={linkedin} height={0} width={0} alt='' /></a>
                             <a href='#'><Image src={google} height={0} width={0} alt='' /></a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className='py_30 d-flex justify-content-between align-items-center copyright gap-3 '>
                     <div>

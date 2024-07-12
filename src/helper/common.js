@@ -4,17 +4,27 @@ export const quickLink = [
         path: '/'
     },
     {
-        name: 'About Us',
-        path: '/aboutus'
+        name: 'Affiliates',
+        path: '/affiliates'
     },
     {
         name: 'Developer',
         path: '/developer'
     },
     {
-        name: 'Affiliates',
-        path: '/affiliates'
+        name: 'About Us',
+        path: '/about-us'
     },
+    {
+        name: 'Faq',
+        path: '/faq'
+    },
+    {
+        name: 'Blog',
+        path: '/blog'
+    },
+
+
     // {
     //     name: 'Contact Us',
     //     path: '/contactus'
