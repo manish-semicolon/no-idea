@@ -9,12 +9,17 @@ import React from 'react'
 
 function page() {
   return (
-    <div className='' style={{ background: '#090c1d' }}>
+    <div className='position-relative' style={{ background: '#090c1d', minHeight: '100vh' }}>
+      {/* <div className="de-gradient-edge-top"></div>
+      <div className="de-gradient-edge-bottom"></div> */}
       <Header />
-      <SliderSection />
+      {/* <SliderSection /> */}
       <GameSection />
       <Blog />
-      <FAQ />
+      <div className='mt-4'>
+        <FAQ />
+
+      </div>
       <Footer />
       <ScrollDown />
     </div>

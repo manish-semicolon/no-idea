@@ -17,28 +17,28 @@ function page() {
                             <div className="col-lg-12  bread_12">
                                 <BreadCrumb name="About Us" />
                             </div>
-                            <div class="banner-bottom about">
-                                <div class="overlay">
-                                    <div class="container wow fadeInUp gx-0">
-                                        <div class="main-content">
+                            <div className="banner-bottom about">
+                                <div className="overlay">
+                                    <div className="container wow fadeInUp gx-0">
+                                        <div className="main-content">
                                             <Image src={AboutContent} width={0} height={0} alt='about content' className='ban-img' />
-                                            <div class="item-area">
-                                                <div class="row justify-content-center d-flex">
-                                                    <div class="col-lg-10 content-item d-flex gx-0">
-                                                        <div class="col">
-                                                            <div class="single-item text-center">
+                                            <div className="item-area">
+                                                <div className="row justify-content-center d-flex">
+                                                    <div className="col-lg-10 content-item d-flex gx-0">
+                                                        <div className="col">
+                                                            <div className="single-item text-center">
                                                                 <h2 className='common_sectionh2 mb-0'>200*</h2>
                                                                 <p className='mb-0'>We're proud of our partners</p>
                                                             </div>
                                                         </div>
-                                                        <div class="col">
-                                                            <div class="single-item text-center">
+                                                        <div className="col">
+                                                            <div className="single-item text-center">
                                                                 <h2 className='common_sectionh2 mb-0'>20 mil.</h2>
                                                                 <p className='mb-0'>A happy is a loyal customer</p>
                                                             </div>
                                                         </div>
-                                                        <div class="col">
-                                                            <div class="single-item mb-cus text-center">
+                                                        <div className="col">
+                                                            <div className="single-item mb-cus text-center">
                                                                 <h2 className='common_sectionh2 mb-0'>2010—</h2>
                                                                 <p className='mb-0'>We've been Gaming company since</p>
                                                             </div>

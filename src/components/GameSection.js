@@ -30,27 +30,71 @@ import game18 from "../../public/assets/icon/spilled-beans.jpg"
 import game19 from "../../public/assets/icon/super-mart.jpg"
 import game20 from "../../public/assets/icon/sweet-swap-puzzle.jpg"
 
+import cup from "@/assets/logo/cup.png"
+import flash from "@/assets/logo/flash.png"
+import star from "@/assets/logo/star.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
+
 function GameSection() {
     const gameImage = [game1, game2, game3, game4, game5, game6, game7, game8, game9, game10, game11, game12, game13, game14, game15, game16, game17, game18, game19, game20]
     return (
-        <div className="pb_46 px-15" style={{ overflow: 'hidden' }}>
+        <div className="pb_120 px-15 header_PT120">
             <div className="container gx-0">
                 <div className="row justify-content-between gx-0 flex350">
-                    <div className="col-8 text-center">
+                    {/* <div className="container">
+                        <div className="row justify-content-center ">
+                            <div className="col-lg-8 px-15 pb-4">
+                                <div className="faq_section text-center mb-0">
+                                    <h2 className="title">AVAILABLE <span>GAMES</span></h2>
+                                    <p>To meet today's challenges & earn cryptocurrency</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
+                    <div className="game_menu_bar">
+                        <div className="row gap-lg-0 gap-3  justify-content-between" style={{ padding: '0 15px' }}>
+                            <div className="col-lg-5 col-md-12">
+                                <div className="input-area d-flex">
+                                    <div className="icon d-flex align-items-center">
+                                        <FontAwesomeIcon icon={faMagnifyingGlass} className='' />
+                                    </div>
+                                    <input type="text" placeholder="What’s your game?" />
+                                </div>
+                            </div>
+                            <div className="col-lg-7 col-md-12 d-flex justify-content-center justify-content-lg-end">
+                                <div className="d-flex justify-content-center align-items-center gap-3 game_menu_button">
+                                    <a className="cmn_btn cmn_btn_alt" href="#" aria-label="">
+                                        <Image src={star} width={0} height={0} alt="featured icon" />
+                                        Featured
+                                    </a>
+                                    <a className="cmn_btn cmn_btn_alt2" href="#" aria-label="">
+                                        <Image src={flash} width={0} height={0} alt="instant icon" />
+                                        Instant
+                                    </a>
+                                    <a className="cmn_btn cmn_btn_alt2" href="#" aria-label="">
+                                        <Image src={cup} width={0} height={0} alt="tournament icon" />
+                                        Tournaments
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* <div className="col-8 text-center">
                         <div className="slider_text  mb-0 ">
                             <h2 className="title mb-0 text-start ">FEATURED GAMES</h2>
                         </div>
                     </div>
                     <div className="col-4 d-flex align-items-center justify-content-end">
                         <div className="right-area">
-                            {/* <a href="#" className="cmn_btn cmn_btn_alt">Show all<Image src={nextIcon} width={0} height={0} alt="arrow icon" className="ms-2 mb-1" /></a> */}
                             <CustomButton name='View More' />
                         </div>
-                    </div>
+                    </div> */}
                     <div className="game_section_mt grid_game mt-3 ">
                         {gameImage.map((game, i) => {
                             return (
-                                <a key={i + 'qtdes'} href="#" className="w-100 align-content-stretch ">
+                                <a key={i + 'qtdes'} href="#" className="w-100 align-content-stretch image_animation position-relative shineBtn overflow-hidden " style={{ borderRadius: '30px' }}>
                                     <Image src={game} width={0} height={0} alt="" className="w-100" style={{ height: 'auto' }} loading="lazy" />
                                 </a>
                             )

@@ -5,7 +5,7 @@ import ScrollDown from "./ScrollDown"
 function Wrapper({ children }) {
 
     return (
-        <div style={{ background: '#090c1d' }}>
+        <div style={{ background: '#090c1d', minHeight: "100vh" }}>
             <Header />
             {children}
             <Footer />

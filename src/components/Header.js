@@ -42,14 +42,14 @@ function Header() {
 
     return (
         <header id='header-section'>
-            <div className='container d-flex gx-0 px-15 '>
+            <div className='container d-flex gx-0 px-15 py-3 '>
                 <div className="flex-grow-1 d-flex align-items-center">
                     <a href="/" aria-label='home'>
                         <Image src={logo} width={120} height={0} alt='home logo' loading="lazy" />
                     </a>
                 </div>
                 <div className='d-lg-none ms-lg-auto d-flex align-items-center gap-4 ' onClick={handleMenu}>
-                    <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style d-lg-none' />
+                    {/* <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style d-lg-none' /> */}
                     <FontAwesomeIcon icon={faBars} className='icon_style' />
                 </div>
                 <nav>
@@ -57,19 +57,22 @@ function Header() {
                         <ul className=''>
                             {quickLink.map((item, index) => {
                                 return (
-                                    <li key={item.name}><a href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} >{item.name}</a></li>
+                                    <a key={item.name} href={item.path} aria-label='' style={{ color: pathname === item.path && 'var(--hover-text)' }} > <li>{item.name}</li></a>
                                 )
                             })}
-                            <li><a className="cmn_btn cmn_btn_alt2 " href="/contactus" aria-label="">
-                                <span className="position-relative">
-                                    <span className='h-first'>Contact Us</span>
-                                    <span className='h-second'>Contact Us</span>
-                                    <span className='h-third'>Contact Us</span>
-                                </span>
-                            </a></li>
-                            <div className="search_btn d-none d-lg-flex " onClick={handleMenu}>
+                            <a className="cmn_btn cmn_btn_alt2" href="/contact-us" aria-label="" style={{ width: 'fit-content', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                                <li>
+                                    Contact Us
+                                    {/* <span className="position-relative">
+                                        <span className='h-first'>Contact Us</span>
+                                        <span className='h-second'>Contact Us</span>
+                                        <span className='h-third'>Contact Us</span>
+                                    </span> */}
+                                </li>
+                            </a>
+                            {/* <div className="search_btn d-none d-lg-flex " onClick={handleMenu}>
                                 <FontAwesomeIcon icon={faMagnifyingGlass} className='icon_style' />
-                            </div>
+                            </div> */}
                         </ul>
                     </div>
                 </nav>

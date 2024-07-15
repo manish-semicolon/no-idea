@@ -6,7 +6,7 @@ function FAQ() {
     return (
         <section id="faq-section">
             {/* <section id="faq-section" style={{ background: '#00093E' }}> */}
-            <div className="pb_46 pt_46">
+            <div className="pb_120 pt_100">
                 <div className="container">
                     <div className="row justify-content-center text-center">
                         <div className="col-lg-8">

@@ -27,6 +27,6 @@ export const quickLink = [
 
     // {
     //     name: 'Contact Us',
-    //     path: '/contactus'
+    //     path: '/contact-us'
     // },
 ]

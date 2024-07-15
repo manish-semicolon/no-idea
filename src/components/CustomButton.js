@@ -1,13 +1,17 @@
 function Button({ name, url = "#", icon = true }) {
     return (
-        <a href={url} className="cmn_btn cmn_btn_alt text-center">
-            <span className="position-relative">
+        <a href={url} className="cmn_btn cmn_btn_alt text-center">{name}
+            {/* <span className="position-relative">
                 <span className='c-first'>{name}</span>
                 <span className='c-second'>{name}</span>
                 <span className='c-third'>{name}</span>
-            </span>
-            {icon && <span className="position-relative ms-1 mb-1">
-                <span className="c-first">
+            </span> */}
+            {icon &&
+                <span className="position-relative ms-1 mb-1">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={14} height={14} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="size-6">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
+                    </svg>
+                    {/* <span className="c-first">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={14} height={14} viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(197, 106, 24)" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                     </svg>
@@ -21,8 +25,9 @@ function Button({ name, url = "#", icon = true }) {
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" width={14} height={14} viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5" />
                     </svg>
+                </span> */}
                 </span>
-            </span>}
+            }
         </a>
     )
 }
