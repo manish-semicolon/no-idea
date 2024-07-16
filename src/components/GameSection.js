@@ -36,23 +36,13 @@ import star from "@/assets/logo/star.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
 
-function GameSection() {
+function GameSection({ search = true }) {
     const gameImage = [game1, game2, game3, game4, game5, game6, game7, game8, game9, game10, game11, game12, game13, game14, game15, game16, game17, game18, game19, game20]
     return (
-        <div className="pb_120 px-15 header_PT120">
+        <div className={`pb_120 px-15 ${search && "header_PT120"}`}>
             <div className="container gx-0">
                 <div className="row justify-content-between gx-0 flex350">
-                    {/* <div className="container">
-                        <div className="row justify-content-center ">
-                            <div className="col-lg-8 px-15 pb-4">
-                                <div className="faq_section text-center mb-0">
-                                    <h2 className="title">AVAILABLE <span>GAMES</span></h2>
-                                    <p>To meet today's challenges & earn cryptocurrency</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
-                    <div className="game_menu_bar">
+                    {search && <div className="game_menu_bar">
                         <div className="row gap-lg-0 gap-3  justify-content-between" style={{ padding: '0 15px' }}>
                             <div className="col-lg-5 col-md-12">
                                 <div className="input-area d-flex">
@@ -79,7 +69,7 @@ function GameSection() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>}
 
                     {/* <div className="col-8 text-center">
                         <div className="slider_text  mb-0 ">

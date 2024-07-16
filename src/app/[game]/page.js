@@ -1,35 +1,23 @@
 import Wrapper from '@/components/Wrapper'
 import Image from 'next/image'
-import left_banner from "@/assets/left_banner.png"
-import BreadCrumb from '@/components/BreadCrumb'
-import gameBanner from '@/assets/games_banner.png'
 import game1 from "../../../public/assets/icon/adventurous-ninja-run.jpg"
+import GameSection from '@/components/GameSection'
 
 function page() {
     return (
         <Wrapper>
-            <section id="common_section" className="position-relative faq overflow-hidden g_section" >
-                <div className="banner_content d-flex align-items-center">
-                    <div className="container">
-                        {/* <Image src={left_banner} width={0} height={0} alt="left banner" className="left_banner" /> */}
-                        <Image src={gameBanner} width={0} height={0} alt='game banner' className='game_banner position-absolute bottom-0 end-0' />
-                        <div className="row d-flex justify-content-start position-relative ">
-                            <div className="col-lg-12  flex-sm-row flex-column gap-5 gap-sm-0 ">
-                                <BreadCrumb name="Game" />
-                                {/* <FaqEffect id="faq-section" classCss="faq-page" /> */}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <div className="container pb_46 pt_46">
-                <div className="row justify-content-center ">
-                    <div className="col-lg-8 px-15">
-                        <div className="faq_section text-center d-flex flex-column align-items-center ">
+                <div className="row justify-content-center">
+                    <div className="col-lg-12 px-15 position-relative bg_game_img2" style={{
+                        backgroundImage: "url(/assets/icon/adventurous-ninja-run.jpg)"
+                    }}>
+                        {/* <Image src={game1} width={0} height={0} className='bg_game_img' alt='game name' /> */}
+                        <div class="drop_color"></div>
+                        <div className="faq_section text-center d-flex flex-column align-items-center position-relative mb-2  ">
                             <h2 className="title">Skibidi Toilet</h2>
-                            <Image src={game1} width={0} height={0} alt='game name' />
+                            <Image src={game1} width={0} height={0} alt='game name' style={{ borderRadius: '16px' }} />
 
-                            <button type='button' className='cmn_btn cmn_btn_alt3 text-center mt-3 mb-3 border-0' style={{ width: '203px' }}>
+                            <button type='button' className='cmn_btn cmn_btn_alt3 text-center border-0' style={{ width: '203px', marginTop: '20px', marginBottom: '10px' }}>
                                 Submit
                             </button>
                         </div>
@@ -59,9 +47,9 @@ function page() {
                             <span>Archery</span>
                         </div>
                     </div>
-
                 </div>
             </div>
+            <GameSection search={false} />
         </Wrapper>
     )
 }

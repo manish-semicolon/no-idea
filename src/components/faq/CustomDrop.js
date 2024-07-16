@@ -52,7 +52,7 @@ function CustomDrop({ defaultActiveKey = true }) {
                     culpa qui officia deserunt mollit anim id est laborum.
                 </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="4" className="mb-4">
+            {/* <Accordion.Item eventKey="4" className="mb-4">
                 <Accordion.Header>Accordion Item #5</Accordion.Header>
                 <Accordion.Body>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -75,7 +75,7 @@ function CustomDrop({ defaultActiveKey = true }) {
                     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia deserunt mollit anim id est laborum.
                 </Accordion.Body>
-            </Accordion.Item>
+            </Accordion.Item> */}
         </Accordion>
     )
 }
