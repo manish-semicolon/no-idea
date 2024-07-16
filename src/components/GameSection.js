@@ -94,7 +94,7 @@ function GameSection() {
                     <div className="game_section_mt grid_game mt-3 ">
                         {gameImage.map((game, i) => {
                             return (
-                                <a key={i + 'qtdes'} href="#" className="w-100 align-content-stretch image_animation position-relative shineBtn overflow-hidden " style={{ borderRadius: '30px' }}>
+                                <a key={i + 'qtdes'} href="/game" className="w-100 align-content-stretch image_animation position-relative shineBtn overflow-hidden " style={{ borderRadius: '30px' }}>
                                     <Image src={game} width={0} height={0} alt="" className="w-100" style={{ height: 'auto' }} loading="lazy" />
                                 </a>
                             )
