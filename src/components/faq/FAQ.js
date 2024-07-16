@@ -14,11 +14,11 @@ function FAQ() {
                             <FaqEffect />
                         </div>
                         <div className="col-lg-7">
-                            <div className="row justify-content-center text-end">
+                            <div className="row justify-content-center text-lg-start text-center">
                                 <div className="col-12">
                                     <div className="section-header faq_text">
                                         <h2 className="title">Our most common questions</h2>
-                                        <p className='text-end m-0'>Do you have a question about game? Please contact us!</p>
+                                        <p className='text-lg-start text-center m-0'>Do you have a question about game? Please contact us!</p>
                                     </div>
                                 </div>
                             </div>

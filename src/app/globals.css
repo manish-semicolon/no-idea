@@ -1180,6 +1180,49 @@ textarea {
   padding: 26px 0;
 }
 
+/* affiliate_section */
+.affiliate_wrapper {
+
+  .aff_div {
+    background: #2c2852;
+    padding: 16px;
+    border-radius: 16px;
+
+    p {
+      background-color: #191939;
+      padding: 10px;
+      margin-top: 14px;
+      border-radius: 10px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    text-align: justify;
+  }
+}
+
+
+
+.affiliate_section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  h3 {
+    position: absolute;
+    top: 10px;
+    font-size: 20px;
+  }
+}
+
+/* developer */
+.dev_img {
+  width: 100%;
+  height: auto;
+}
+
 @media (min-width: 1200px) and (max-width: 1700px) {
   #common_section .banner-bottom.about .main-content::before {
     width: 96% !important;
@@ -1231,6 +1274,10 @@ textarea {
 }
 
 @media (max-width: 991px) {
+  .dev_img {
+    width: 70%;
+  }
+
   .game_description ul li {
     font-size: 14px !important;
   }
@@ -1485,6 +1532,10 @@ textarea {
 }
 
 @media (max-width: 575px) {
+  .affiliate_wrapper {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
 
   .about_text {
     padding-left: 15px !important;

@@ -1,5 +1,3 @@
-import CustomDrop from '@/components/faq/CustomDrop'
-import FaqEffect from '@/components/faq/FaqEffect'
 import Wrapper from '@/components/Wrapper'
 import Image from 'next/image'
 import left_banner from "@/assets/left_banner.png"
