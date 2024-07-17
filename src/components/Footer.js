@@ -15,7 +15,7 @@ import rightImage from '@/assets/images/footer-right.png'
 function Footer() {
     return (
         <footer>
-            <div className="container px-15">
+            <div className="container px-15 gx-0">
                 {/* <div className="row">
                     <div className="col-lg-12">
                         <div className="footer-top pt-120 pb-120">

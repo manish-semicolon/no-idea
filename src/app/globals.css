@@ -19,7 +19,8 @@
   --header-bg: #191939;
   --black-bg: #090c1d;
   --yellow: #ffce00;
-  --text_color: #9789cd;
+  /* --text_color: #9789cd; */
+  --text_color: #858585;
 }
 
 html {
@@ -35,7 +36,7 @@ html {
   line-height: 25px;
   font-weight: 400;
   color: white;
-  list-style: none;
+  /* list-style: none; */
 
   ul,
   a {
@@ -137,6 +138,11 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer_link,
+#menu li {
+  list-style: none;
 }
 
 #menu ul {
@@ -787,10 +793,12 @@ li {
   margin-bottom: 45px;
 }
 
-.nav_bred a {
+.nav_bred a,
+.nav_bred p {
   font-size: 24px !important;
   position: relative;
   color: white;
+  margin-bottom: 0;
 }
 
 .nav_bred a:first-child {
@@ -798,7 +806,7 @@ li {
 }
 
 .nav_bred a:first-child::after {
-  left: 75px;
+  left: 80%;
   top: 6px;
   position: absolute;
   content: '';
@@ -1044,7 +1052,32 @@ textarea {
   position: relative;
   overflow: hidden;
 } */
+.image_animation .game_des_details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transform: translateY(100%);
+  transition: all 0.8s;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  padding: 8px;
+  height: 60px;
 
+  p {
+    width: inherit;
+    text-align: center;
+    color: white !important;
+    margin-bottom: 0;
+    line-height: 1;
+  }
+}
+
+.image_animation:hover .game_des_details {
+  transform: translateY(0);
+}
 
 .image_animation:hover.shineBtn:after,
 .image_animation:hover.shineBtn:before {
@@ -1109,16 +1142,31 @@ textarea {
     text-align: justify;
   }
 
-  ul li {
-    list-style: disc;
+  ul li,
+  ol li {
     color: var(--text_color);
     font-size: 16px;
   }
+}
 
-  ul li::marker {
-    color: #6d61a2;
+.blog_li {
+  h4 {
+    font-size: 18px;
   }
 }
+
+/* .blog_li {
+
+  ul li,
+  ol li {
+    color: white;
+    font-size: 16px;
+  }
+
+  ::marker {
+    font-size: 16px;
+  }
+} */
 
 .game_description .game_tag {
   display: flex;
@@ -1223,6 +1271,30 @@ textarea {
   height: auto;
 }
 
+.blog_title {
+  font-family: var(--body-alt-font);
+  color: var(--body-color);
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  h2 {
+    font-size: 32px !important;
+    line-height: normal !important;
+    text-align: start;
+    padding-bottom: 20px;
+  }
+
+  img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .blog_dis {
+    background-color: #191939;
+
+  }
+}
+
 @media (min-width: 1200px) and (max-width: 1700px) {
   #common_section .banner-bottom.about .main-content::before {
     width: 96% !important;
@@ -1278,6 +1350,7 @@ textarea {
     width: 70%;
   }
 
+  .game_description ol li,
   .game_description ul li {
     font-size: 14px !important;
   }

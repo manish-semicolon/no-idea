@@ -13,7 +13,7 @@ function FAQ() {
                         <div className="col-lg-5 d-flex align-items-center custom-mb">
                             <FaqEffect />
                         </div>
-                        <div className="col-lg-7">
+                        <div className="col-lg-7 gx-0 position-relative ">
                             <div className="row justify-content-center text-lg-start text-center">
                                 <div className="col-12">
                                     <div className="section-header faq_text">

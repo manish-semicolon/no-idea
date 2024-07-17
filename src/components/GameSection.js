@@ -86,6 +86,9 @@ function GameSection({ search = true }) {
                             return (
                                 <a key={i + 'qtdes'} href="/game" className="w-100 align-content-stretch image_animation position-relative shineBtn overflow-hidden " style={{ borderRadius: '30px' }}>
                                     <Image src={game} width={0} height={0} alt="" className="w-100" style={{ height: 'auto' }} loading="lazy" />
+                                    <div className="game_des_details ">
+                                        <p>SKIBIDI TOILET TOILET</p>
+                                    </div>
                                 </a>
                             )
                         })}
