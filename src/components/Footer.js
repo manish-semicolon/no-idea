@@ -96,10 +96,10 @@ function Footer() {
                 </div>
                 <div className='py_30 d-flex justify-content-between align-items-center copyright gap-3 '>
                     <div>
-                        Copyright © 2024 - Pokiigame |  <a href="#">Privacy Policy</a>
+                        Copyright © 2024 - Pokiigame |  <a href="/privacy-policy">Privacy Policy</a>
                     </div>
                     <div>
-                        <a href="#">Terms & Conditions</a>
+                        <a href="terms-conditions">Terms & Conditions</a>
                     </div>
                 </div>
             </div>

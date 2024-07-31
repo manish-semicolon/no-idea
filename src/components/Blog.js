@@ -8,9 +8,13 @@ function Blog({ show = true }) {
         <div className="container gx-0 px-15 blog_container pb_120">
             <div className="row justify-content-between mb-3 gx-0 flex350" >
                 <div className="col-8 text-center">
-                    <div className="slider_text  mb-0 ">
+                    {show ? <div className="slider_text  mb-0 ">
                         <h2 className="title mb-0 text-start ">Blog</h2>
-                    </div>
+                    </div> :
+                        <div className="faq_section text-start mb-0">
+                            <h2 className="title">Blog</h2>
+                        </div>
+                    }
                 </div>
                 {show && <div
                     className="col-4 d-flex align-items-center justify-content-end">
@@ -23,7 +27,7 @@ function Blog({ show = true }) {
             <div className="row gap-3 gap-md-0">
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>
@@ -33,7 +37,7 @@ function Blog({ show = true }) {
                 </a>
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>
@@ -43,7 +47,7 @@ function Blog({ show = true }) {
                 </a>
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>
@@ -53,7 +57,7 @@ function Blog({ show = true }) {
                 </a>
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>
@@ -63,7 +67,7 @@ function Blog({ show = true }) {
                 </a>
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>
@@ -73,7 +77,7 @@ function Blog({ show = true }) {
                 </a>
                 <a href='/blog/how-become' aria-label="blog details" className="col-lg-4 col-md-6 mb-3">
                     <div className="w-100">
-                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto rounded-3" loading="lazy" />
+                        <Image src={blog_1} unoptimized width={0} height={0} alt="blog1" className="w-100 h-auto round_30" loading="lazy" />
                     </div>
                     <div className="mt-1 blog_txt_section">
                         <p className="mb-1">27.03.2024</p>

@@ -21,7 +21,7 @@ function Header() {
         let fix_top = document.getElementById('header-section')
         let scrollToTopBtn = document.getElementById('scrollToTopBtn')
         const scrollTop = window.scrollY;
-        if (scrollTop > 50) {
+        if (scrollTop > 0) {
             fix_top.classList.add('header_fixed')
             scrollToTopBtn.classList.add('topBtn')
         } else {

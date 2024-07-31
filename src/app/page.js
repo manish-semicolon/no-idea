@@ -16,9 +16,8 @@ function page() {
       {/* <SliderSection /> */}
       <GameSection />
       <Blog />
-      <div className='mt-4'>
+      <div className='mt-4 px-15'>
         <FAQ />
-
       </div>
       <Footer />
       <ScrollDown />

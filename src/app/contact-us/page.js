@@ -6,21 +6,23 @@ import BreadCrumb from '@/components/BreadCrumb'
 export default function page() {
     return (
         <Wrapper>
-            <section id="common_section" className="position-relative faq overflow-hidden " >
+            {/* <section id="common_section" className="position-relative faq overflow-hidden " >
                 <div className="banner_content d-flex align-items-center">
-                    <div className="container">
+                    <div className="container gx-0">
                         <Image src={left_banner} width={0} height={0} alt="left banner" className="left_banner" />
                         <div className="row d-flex justify-content-start position-relative ">
                             <div className="col-lg-12 d-flex justify-content-between align-items-center flex-sm-row flex-column gap-5 gap-sm-0 ">
                                 <BreadCrumb name="Contact Us" textCenter={true} />
-                                {/* <FaqEffect id="faq-section" classCss="faq-page" /> */}
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <div className="container pb_46 pt_46">
-                <div className="row justify-content-center ">
+            </section> */}
+            <div className="container pb_46 header_PT120 gx-0 px-15">
+                <div className="faq_section text-start mb-5">
+                    <h2 className="title">Contact us</h2>
+                </div>
+                <div className="row">
                     <div className="col-lg-6 px-15 mb-5">
                         <form className='contact_form'>
                             <div>

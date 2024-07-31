@@ -1,30 +1,40 @@
 import Wrapper from '@/components/Wrapper'
 import Image from 'next/image'
-import game1 from "../../../public/assets/icon/adventurous-ninja-run.jpg"
 import GameSection from '@/components/GameSection'
-
-function page() {
+import gameJson from "@/components/gameDetails/game.json"
+import { notFound } from 'next/navigation'
+import game1 from '../../../public/images/logos/adventurous-ninja-run.jpg'
+function page({ params }) {
+    let game = gameJson.filter((item) => {
+        if (item.route === params.game) {
+            return item;
+        }
+    })
+    if (game.length !== 1) {
+        notFound()
+    }
+    console.log(game[0].image, 'game')
     return (
         <Wrapper>
             <div className="container pb_46 pt_46">
-                <div className="row justify-content-center">
-                    <div className="col-lg-12 px-15 position-relative bg_game_img2" style={{
-                        backgroundImage: "url(/assets/icon/adventurous-ninja-run.jpg)"
-                    }}>
-                        {/* <Image src={game1} width={0} height={0} className='bg_game_img' alt='game name' /> */}
-                        <div class="drop_color"></div>
+                <div className="row justify-content-center px-15">
+                    <div className="col-lg-12 px-15 position-relative bg_game_img2"
+                        style={{
+                            backgroundImage: `url(${game[0].image})`
+                        }}
+                    >
+                        <div className="drop_color"></div>
                         <div className="faq_section text-center d-flex flex-column align-items-center position-relative mb-2  ">
-                            <h2 className="title">Skibidi Toilet</h2>
-                            <Image src={game1} width={0} height={0} alt='game name' style={{ borderRadius: '16px' }} />
-
+                            <h2 className="title mt-1">{game[0].name}</h2>
+                            <Image src={game[0].image} width={0} height={0} alt='game name' className='detailImage' unoptimized />
                             <button type='button' className='cmn_btn cmn_btn_alt3 text-center border-0' style={{ width: '203px', marginTop: '20px', marginBottom: '10px' }}>
-                                Submit
+                                Play
                             </button>
                         </div>
                     </div>
                     <div className='col-12 game_description'>
                         <div>
-                            <h2>Brave Archer</h2>
+                            <h2>{game[0].name}</h2>
                             <p>
                                 In the gripping 2D side-scrolling action game Brave Archer, you take on the role of a valiant archer who must gather stars in 30 difficult stages set in a valley overrun by monsters. As you work to complete each level, you'll encounter dangerous terrain, formidable foes, and eye-catching designs.
                             </p>
@@ -41,10 +51,7 @@ function page() {
                             </ul>
                         </div>
                         <div className='game_tag'>
-                            <span>Archery</span>
-                            <span>Archery</span>
-                            <span>Archery</span>
-                            <span>Archery</span>
+                            {game[0]?.tags?.map((tags) => <span>{tags}</span>)}
                         </div>
                     </div>
                 </div>

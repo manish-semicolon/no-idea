@@ -1,0 +1,348 @@
+[
+    {
+        "name": "Brave Archer",
+        "route": "brave-archer",
+        "category": "Adventure",
+        "icon": "/images/small/brave-archer.jpg",
+        "image": "/images/logos/brave-archer.jpg",
+        "path": "/game/brave-archer/index.html",
+        "description": "<h1>Brave Archer</h1><p style='height:auto'>In the gripping 2D side-scrolling action game Brave Archer, you take on the role of a valiant archer who must gather stars in 30 difficult stages set in a valley overrun by monsters. As you work to complete each level, you'll encounter dangerous terrain, formidable foes, and eye-catching designs.</p><h3>How to Play</h3><p>In Brave Archer, an exhilarating adventure, you must travel through perilous environments full of monsters as a proficient archer. <br /><br />To take out dangerous enemies, you must gather the dispersed stars in each level and refine your precise archery abilities.<br /><br /> Your adventure requires strategic skill and fast reactions to advance through each level, which consists of over 30 levels of increasingly difficult obstacles. As you embark on an exciting mission to subdue the monster kingdom, embrace the colorful and strikingly beautiful world.<br /><br /> Collect every star at every level to earn as many points as possible while eliminating opponents in the process.</p><h3>Controls:</h3><ul><li>W - Jump</li><li>A, D - Forward, backward movement</li><li>K - Archery</li><li>Or The control buttons on the screen can be used for archery or other activities.</li></ul>",
+        "tags": [
+            "Archery",
+            "Mario",
+            "Mobile",
+            "Shooter",
+            "Addictive",
+            "Ninja"
+        ]
+    },
+    {
+        "name": "Flash Memory",
+        "route": "flash-memory",
+        "category": "Puzzle",
+        "icon": "/images/small/flash-memory.jpg",
+        "image": "/images/logos/flash-memory.jpg",
+        "path": "/game/flash-memory/index.html",
+        "description": "<h1>Flash Memory</h1><p style='height:auto'>Flash Memory is a memory game that requires you to test your ability to recall numbers quickly. Every round, a number is given to you that you have to recall.<br /><br />You have to quickly enter the precise number that you observed. Because the game doesn't wait for you, precision and speed are essential. The game challenges your memory and reflexes to the utmost, getting harder with each right entry.<br /><br /> Are you capable of keeping up with the speed and becoming the ultimate memory expert?</p>",
+        "tags": [
+            "Mind test",
+            "Memory",
+            "Power of mind",
+            "Challenge"
+        ]
+    },
+    {
+        "name": "Candy Splash",
+        "route": "candy-splash",
+        "category": "Puzzle",
+        "icon": "/images/small/candy-splash.jpg",
+        "image": "/images/logos/candy-splash.jpg",
+        "path": "/game/candy-splash/index.html",
+        "description": "<h1>Candy Splash</h1><p style='height:auto'>Candy Splash is a wonderful puzzle game with charming graphics and captivating action that will attract players of all ages. Set out on an adventure with vibrant candies and glittering diamonds, matching and swapping them to advance through stages and reveal thrilling rewards.<br /><br />Candy Splash is a straightforward game in which you must strategically swap two candies or diamonds to form a line of three or more colors of the same color. You'll advance through the game's stages with each victorious match, but be careful; each level has its own set of challenges that you must overcome in order to go on to the next.<br /><br />Your quick thinking and deft moves will be your allies as you go through increasingly challenging problems. New power-ups and obstacles will also be added to keep you on your toes. Using special powers like Candy Bomb and Diamond Blast is necessary to clear several candy or gems in one explosive move. Candy Splash is a game that tests your strategic thinking and problem-solving abilities more than just matching candies. Candy Splash is a visually attractive game that offers limitless repeat value and captivating action. You'll adore it and want to play it again and again. Candy Splash is an engaging and challenging puzzle game that will keep you entertained for many hours, so there's no need to look anywhere else.</p>",
+        "tags": [
+            "Sweet",
+            "Candies",
+            "Swapcandies",
+            "Challenge",
+            "Game",
+            "Focus"
+        ]
+    },
+    {
+        "name": "Rainbow Ball",
+        "route": "rainbow-ball",
+        "category": "Puzzle",
+        "icon": "/images/small/rainbow-ball.jpg",
+        "image": "/images/logos/rainbow-ball.jpg",
+        "path": "/game/rainbow-ball/index.html",
+        "description": "<h1>Rainbow Ball</h1><p style='height:auto'>TThe game is called Rainbow Ball! There's a ball bouncing around that can be any one of five colors. Making sure the platform it lands on matches its color is your responsibility. If they don't match, you'll lose!<br /><br />As you play, the rainbow ball becomes weaker, making timing your moves more challenging. So don't worry—just keep getting points and matching colors!<br /><br />Your focus and reflexes will be tested in this easy-to-learn but challenging game. How much can you score? Try it out and see what happens!</p>",
+        "tags": [
+            "matchcolor",
+            "colorball",
+            "games"
+        ]
+    },
+    {
+        "name": "CrocoMunch",
+        "route": "Crocomunch",
+        "category": "Action",
+        "icon": "/images/small/Crocomunch.jpg",
+        "image": "/images/logos/Crocomunch.jpg",
+        "path": "/game/Crocomunch/index.html",
+        "description": "<h1>CrocoMunch</h1><p style='height:auto'>CrocoMunch allows you to take control of a hungry crocodile! Your position? Feed the crocodile with fish so it doesn't starve. But be on your guard! As well as the fish, you'll also have to contend with hills and bombs!<br /><br />To play, simply tap the screen when the crocodile has closed its mouth to catch the fish. Be careful not to hit the hills or catch any explosives! Your score increases the longer you can keep the crocodile swimming and catching fish.<br /><br />In CrocoMunch, quick reflexes are essential. Can you feed the crocodile while avoiding obstacles so that you get the best possible score? See how long you can keep the crocodile running!</p>",
+        "tags": [
+            "Matchcolor",
+            "Colorball",
+            "Games"
+        ]
+    },
+    {
+        "name": "Fearless Warrior",
+        "route": "fearless-warrior",
+        "category": "Casual",
+        "icon": "/images/small/fearless-warrior.jpg",
+        "image": "/images/logos/fearless-warrior.jpg",
+        "path": "/game/fearless-warrior/index.html",
+        "description": "<h1>Fearless Warrior</h1><p style='height:auto'>Fearless Warrior  is an exciting HTML5 slot game that you can play! Discover the fascinating game rules and much more while you play. If slot machines are your favourite game, we can assure you that you will enjoy this game to the fullest!<br /><br />In the game Fearless Warrior, you can expect several reels that spin automatically when you place a bet and press the spin button. Different symbols appear on each reel, which are associated with warriors, battles, or other elements that match the design of the game.<br /><br />To win, you need to land matching symbols on a specific payline, which is a horizontal line across the reels. The game has a payout table that shows the value of each symbol combination. You can achieve higher winnings if you combine symbols with a higher value or certain patterns, e.g., triple combinations or scatter symbols.<br /><br />Before you spin the reels, you must set your stake. To do this, you usually choose the number of win lines you want to activate and the coin value per line. If you activate more lines and choose a higher coin value, your potential win increases, but so do the costs per spin.<br /><br />Many slot machines have bonus features that can make the game more exciting and increase your potential winnings.</p>",
+        "tags": [
+            "Warrior",
+            "Battles",
+            "Free",
+            "No Download",
+            "No Registration",
+            "Games"
+        ]
+    },
+    {
+        "name": "Spilled Beans",
+        "route": "spilled-beans",
+        "category": "Arcade",
+        "icon": "/images/small/spilled-beans.jpg",
+        "image": "/images/logos/spilled-beans.jpg",
+        "path": "/game/spilled-beans/index.html",
+        "description": "<h1>Spilled Beans</h1><p style='height:auto'>Spilled beans, colorful and exciting races over several tracks are waiting for you! The main goal is to reach the end of each race track without being eliminated.<br /><br />The simplest way to control your character is on the desktop, where you move with the arrow keys and jump with the space bar. Using the touch controls is all it takes to move your character past obstacles on a smartphone or tablet.<br /><br />Spilled Beans create an enjoyable and relaxing gaming experience for gamers of all ages with its vibrant and lively style. Are you prepared to take on the obstacles and win the race in Spilled Beans? Start the thrill now!</p>",
+        "tags": [
+            "Race",
+            "Fall Beans",
+            "Multi Player",
+            "Online",
+            "No Registration",
+            "No Download",
+            "Games",
+            "Free"
+        ]
+    },
+    {
+        "name": "Sweet Swap Puzzle",
+        "route": "sweet-swap-puzzle",
+        "category": "Puzzle",
+        "icon": "/images/small/sweet-swap-puzzle.jpg",
+        "image": "/images/logos/sweet-swap-puzzle.jpg",
+        "path": "/game/sweet-swap-puzzle/index.html",
+        "description": "<h1>Sweet Swap Puzzle</h1><p style='height:auto'>The Sweet Swap puzzle game is an enjoyable puzzle game that you can play directly from your web browser! It's an excellent family pastime and suitable for players of all ages.<br /><br />On the game board, look for blocks with the same graphic next to them.<br /><br />Click on the blocks to remove them from the board when you discover two or more of the same kind next to one another.<br /><br />Blocks can be matched either vertically or horizontally, depending on what suits you best.There is a set number of moves you must make in order to finish each level.<br /><br />You will receive a reward upon completing a level. These awards can be used to purchase unique skills from the in-game store.<br /><br />To assist you in eliminating every block on a level, you have access to four distinct talents.<br /><br />Get ready to explore the Sweet Swap puzzle and answer engaging riddles while you go. Have fun connecting the blocks and opening them.</p>",
+        "tags": [
+            "Puzzle Game",
+            "Get Reward",
+            "No Registration",
+            "No Download",
+            "Games",
+            "Free"
+        ]
+    },
+    {
+        "name": "Flight Commander",
+        "route": "flight-commander",
+        "category": "Action",
+        "icon": "/images/small/flight-commander.jpg",
+        "image": "/images/logos/flight-commander.jpg",
+        "path": "/game/flight-commander/index.html",
+        "description": "<h1>Flight Commander</h1><p style='height:auto'>The simulation game of the Air Traffic Control Tower! It's your job to help helicopters and airplanes land safely without colliding.<br /><br />To select an airplane or helicopter, click on it.<br /><br />Click on a clear path to guide the selected aircraft to the runway or landing site.<br /><br />Make sure that there are no other aircraft in the flight path.<br /><br />Red warning symbols at the edge of the screen indicate that an airplane or helicopter is flying within sight. Keep an eye out for them.<br /><br />Until the counter in the top left corner has run out, continue to instruct the aircraft to land.<br /><br />As soon as you have completed all the landings, you will be taken to the next level.<br /><br />To become the best air traffic controller, you need to stay organized, focus like a laser, and avoid crashes in the air!</p>",
+        "tags": [
+            "Aircraft",
+            "Helicopters",
+            "Flightpath",
+            "Games",
+            "No Registration",
+            "No Download",
+            "Free"
+        ]
+    },
+    {
+        "name": "Bubble Match Sort",
+        "route": "bubble-match-sort",
+        "category": "Strategy",
+        "icon": "/images/small/bubble-match-sort.jpg",
+        "image": "/images/logos/bubble-match-sort.jpg",
+        "path": "/game/bubble-match-sort/index.html",
+        "description": "<h1>Bubble Match Sort</h1><p style='height:auto'>Bubble Match Sort is an incredibly entertaining and addictive puzzle game that we hope you enjoy! The task of assisting the frog in launching colorful orbs into the moving chain is your responsibility. Match three orbs of the same hue in a row to shorten the chain. To move on to the next level, move quickly and eliminate every orb before they reach the trail's end. Technique and ability are the keys to overcoming the task.<br /><br />TTo start playing, click or press the arrow. Select your level after that.<br /><br />The frog's head will be filled with a colored orb; aim it in the direction you want to throw it. Toss the sphere using a tap or click. To shorten the chain, match three orbs of the same hue in a row. The chain is moving quickly, so move quickly! To go on to the next level, clear every orb before they reach the trail's conclusion.</p>",
+        "tags": [
+            "Adventure",
+            "Puzzle Game",
+            "Match Orbs",
+            "Free",
+            "No Download",
+            "No Registration"
+        ]
+    },
+    {
+        "name": "Space Paint Challenge",
+        "route": "space-paint-challenge",
+        "category": "Puzzle",
+        "icon": "/images/small/space-paint-challenge.jpg",
+        "image": "/images/logos/space-paint-challenge.jpg",
+        "path": "/game/space-paint-challenge/index.html",
+        "description": "<h1>Space Paint Challenge</h1><p style='height:auto'>Greetings and welcome to the painting game! To move the paint sponge, you can do so by using the mouse, the keyboard's arrow keys, or a swipe. To advance through the stages, paint the houses. Your painted houses can be incorporated into your city. Enhance the appearance of homes in your city by painting them and earning money. How will your city appear? Let's investigate!<br /><br />Continue going until the wall's white areas are all painted.<br /><br />Repeat the same process for the other sides of the house.<br /><br />If required, you have the option to paint over the previous paint lines.<br /><br />Proceed to the next level after collecting money and painting a house.<br /><br />To expand your city and increase your income, continue painting houses!</p>",
+        "tags": [
+            "Painting",
+            "Ownhouse",
+            "Collect Money",
+            "Free",
+            "No Download",
+            "No Registration"
+        ]
+    },
+    {
+        "name": "Jumping Ninja",
+        "route": "jumping-ninja",
+        "category": "Action",
+        "icon": "/images/small/jumping-ninja.jpg",
+        "image": "/images/logos/jumping-ninja.jpg",
+        "path": "/game/jumping-ninja/index.html",
+        "description": "<h1>Jumping Ninja</h1><p>Welcome to this easy-to-play, timeless jumping game! Play a brand-new game, earn cash, and unlock new characters.</p><p>A thrilling side-scrolling adventure awaits you!</p><p>For hours of pleasure, explore new settings.</p><p>A new level of gaming pleasure can be enjoyed with simple controls.</p><p>Take part in the action and experience the excitement of this captivating game!</p>",
+        "tags": [
+            "Coins",
+            "Thrilling",
+            "Free",
+            "No Download",
+            "No Registration",
+            "Games"
+        ]
+    },
+    {
+        "name": "Jurassic Dino Adventure",
+        "route": "jurassic-dino-adventure",
+        "category": "Adventure",
+        "icon": "/images/small/jurassic-dino-adventure.jpg",
+        "image": "/images/logos/jurassic-dino-adventure.jpg",
+        "path": "/game/jurassic-dino-adventure/index.html",
+        "description": "<h1>Jurassic Dino Adventure</h1><p style='height:auto'>Embark on an unforgettable adventure with the small dinosaur as they traverse snowy, forested, and desert settings, encountering numerous obstacles as they go. Your goal? In Jurassic Dino Adventure, find every golden egg and strive for three stars on each level!<br /><br />This 2D side-scrolling game is exhilarating and difficult, bringing back memories of cherished classics like Super Mario, Donkey Kong, and Sonic. Throughout the 15 stages, players will encounter challenges as they strive for victory.<br /><br />Jurassic Dino Adventure promises a really fun gaming experience that features colorful and amazing artwork. Get ready to have an amazing time as you begin this amazing journey!",
+        "tags": [
+            "Littledino",
+            "Adventure",
+            "Thrilling",
+            "Free",
+            "No Registration",
+            "No Download",
+            "Games"
+        ]
+    },
+    {
+        "name": "Lucky Draw",
+        "route": "lucky-draw",
+        "category": "Casual",
+        "icon": "/images/small/lucky-draw.jpg",
+        "image": "/images/logos/lucky-draw.jpg",
+        "path": "/game/lucky-draw/index.html",
+        "description": "<h1>Lucky Draw</h1><p style='height:auto'>Playing the lottery at no cost is a virtual experience with Lucky Draw. Just select six distinct numbers, then watch to see which ones are drawn. Visualize the feeling of winning big using this entertaining method!<br /><br />Players can enjoy an involved and fascinating experience with Lucky Draw thanks to its captivating gameplay and exciting anticipation. Will fortune favor you? Play now to find out!</p>",
+        "tags": [
+            "Lucky",
+            "Lottery",
+            "High Score",
+            "No Download",
+            "No Registration",
+            "Free",
+            "Games"
+        ]
+    },
+    {
+        "name": "Lucky Spin",
+        "route": "lucky-spin",
+        "category": "Casual",
+        "icon": "/images/small/lucky-spin.jpg",
+        "image": "/images/logos/lucky-spin.jpg",
+        "path": "/game/lucky-spin/index.html",
+        "description": "<h1>Lucky Spin</h1><p>In Lucky Spin, an entertaining HTML5 game, spinning the wheel is how you earn points. With two wheels, you have a second chance to either lose everything or get a bonus to improve your score. It all comes down to strategy and luck!<br /><br /><h3>How to play:</h3><ol><li>To play, either spin the wheel or press the spin button.</li><li>To achieve a high score, you have seven chances.</li></ol></p>",
+        "tags": [
+            "Luck",
+            "Spinwheel",
+            "Free",
+            "No Download",
+            "No Registration",
+            "High Score"
+        ]
+    },
+    {
+        "name": "Math Mastery",
+        "route": "math-mastery",
+        "category": "Strategy",
+        "icon": "/images/small/math-mastery.jpg",
+        "image": "/images/logos/math-mastery.jpg",
+        "path": "/game/math-mastery/index.html",
+        "description": "<h1>Math Mastery</h1><p style='height:auto'>Welcome to Math Mastery! Matching pairs of mathematical operations (such as addition, subtraction, multiplication, and division) with their accurate outcomes is the goal of this game.<br /><br />Flipping the cards is necessary to see the operations and their outcomes. Next, compute the right answers and identify the corresponding pairs using your mental math skills.<br /><br />Engage in a fun and challenging mental and memory exercise with this online arithmetic game that is designed for adults. It's an excellent method to push yourself and advance your mathematical abilities!</p>",
+        "tags": [
+            "Free",
+            "Games",
+            "No Download",
+            "No Registration",
+            "Math's",
+            "Mindpower",
+            "Testorbrain",
+            "Intelligent"
+        ]
+    },
+    {
+        "name": "Adventurous Ninja Run",
+        "route": "adventurous-ninja-run",
+        "category": "Adventure",
+        "icon": "/images/small/adventurous-ninja-run.jpg",
+        "image": "/images/logos/adventurous-ninja-run.jpg",
+        "path": "/game/adventurous-ninja-run/index.html",
+        "description": "<h1>Adventurous Ninja Run</h1><p style='height:auto'>Greetings from the ninja-themed adventure, Adventuresome Ninja Run! The objective of being a ninja in this game is to climb steep terrain and collect as much gold, gems, and coins as you can. Prepare yourself for an amazing journey!<br /><br />Controlling a ninja is what you do in this easy but fun game. Your objective is to avoid explosives, gather coins, and jump over blocks. To control the ninja leaps, use your mouse. Jump higher to avoid obstacles as the game progresses faster. Your score appears if you encounter an obstacle.</p>",
+        "tags": [
+            "Free",
+            "Games",
+            "No Download",
+            "No Registration",
+            "Coins",
+            "Jump",
+            "Gold",
+            "Ninjarun",
+            "Speed"
+        ]
+    },
+    {
+        "name": "Challenging Restaurant Activity",
+        "route": "challenging-restaurant-activity",
+        "category": "Casual",
+        "icon": "/images/small/challenging-restaurant-activity.jpg",
+        "image": "/images/logos/challenging-restaurant-activity.jpg",
+        "path": "/game/challenging-restaurant-activity/index.html",
+        "description": "<h1>Challenging Restaurant Activity</h1><p style='height:auto'>Challenging Restaurant Activity is a time management game where you take control of a restaurant. Reaching daily income targets is your aim. Beware that there is only one waiter available to handle anything outside the kitchen. You will have more time if you meet the daily earnings target. You run out of time if not. Are you able to follow along?<br /><br />At the start of the game, you have the responsibility of meeting and seating guests at their tables. When the food is done, you take their orders and serve them via the kitchen window. You clear the table and bring them the bill once they've finished eating. It all comes down to effectively running the eatery!</p>",
+        "tags": [
+            "Free",
+            "Games",
+            "No Download",
+            "No Registration",
+            "Restaurant",
+            "Timemanagement",
+            "Guest",
+            "Incometarget"
+        ]
+    },
+    {
+        "name": "Pac Rolling",
+        "route": "pac-rolling",
+        "category": "Arcade",
+        "icon": "/images/small/pac-rolling.jpg",
+        "image": "/images/logos/pac-rolling.jpg",
+        "path": "/game/pac-rolling/index.html",
+        "description": "<h1>Pac Rolling</h1><p style='height:auto'>Presenting our incredibly informal game! Playing only requires one touch, and as you progress, the difficulty level increases. Think of it as a contemporary reinterpretation of the beloved Pac-Man game with an innovative gameplay mechanic!<br /><br />To make Pac-Man change direction, tap the screen. Eliminate opponents, acquire points, and strive to exceed your previous best!</p>",
+        "tags": [
+            "Highscore",
+            "Focus",
+            "Free",
+            "Games",
+            "No Download",
+            "No Registration"
+        ]
+    },
+    {
+        "name": "Super Mart",
+        "route": "super-mart",
+        "category": "Casual",
+        "icon": "/images/small/super-mart.jpg",
+        "image": "/images/logos/super-mart.jpg",
+        "path": "/game/super-mart/index.html",
+        "description": "<h1>Super Mart</h1><p style='height:auto'>Super Mart! You have to manage a food store in this game. Your responsibilities include replenishing produce, incorporating fresh items into your stock, and assisting patrons at the point of sale. Your progress will result in the availability of new screens to display your products. The stockroom is located in the upper left corner; don't forget to keep it supplied!<br/><br/>You own your market in Tap SuperMart and want to make a lot of money by managing it well. Add more departments to enhance your Super Mart's ranking and revenue!<br /><br />To replenish the store room and items, tap the resupply symbol.<br /><br />To reduce wait times, tap the register.<br/><br/>To achieve a 5-star rating, continue expanding and adding new departments.</p>",
+        "tags": [
+            "Free",
+            "Games",
+            "No Download",
+            "No Registration",
+            "Smartmarket",
+            "Cash",
+            "Rich",
+            "Inventory"
+        ]
+    }
+]

@@ -3,7 +3,6 @@ import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function ScrollDown() {
-
     function handleClick() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }

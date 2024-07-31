@@ -8,21 +8,20 @@ import Image from "next/image"
 function page() {
     return (
         <Wrapper>
-            <section id="common_section" className="position-relative faq overflow-hidden" >
+            {/* <section id="common_section" className="position-relative faq overflow-hidden" >
                 <div className="banner_content d-flex align-items-center">
-                    <div className="container">
+                    <div className="container gx-0">
                         <Image src={left_banner} width={0} height={0} alt="left banner" className="left_banner" />
                         <div className="row d-flex justify-content-start position-relative ">
                             <div className="col-lg-12 d-flex justify-content-between align-items-center flex-sm-row flex-column gap-5 gap-sm-0 ">
                                 <BreadCrumb name="Blog Details" textCenter={true} subName='blog' />
-                                {/* <FaqEffect id="faq-section" classCss="faq-page" /> */}
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section>
-                <div className="container blog_title" style={{ paddingBottom: "80px" }}>
+                <div className="container blog_title gx-0 header_PT120" style={{ paddingBottom: "80px" }}>
                     <h2>The Best Kid-Friendly Games of 2024 : Embracing the Digital Age of Fun and Education.</h2>
                     <p>27.03.2024</p>
                     <Image src={blog_1} width={0} height={0} className="w-100 h-auto" alt="blog1" />
